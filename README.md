@@ -9,22 +9,21 @@ Gitlab4J exposes `pom.xml` which you can use for building depdendent jar files v
 
 # Deep dive
 
-## Gitlab
+## Gitlab - Project Structure
 I have created few projects in Gitlab.com free account. As of this project, they look as shown below. We will be working with the one in green - `gitlab4j-demo-project`.
 
 ![My Gitlab Projects List](images/gitlab-projects-overview.png)
 
-## Gitlab Project Structure
 There is a single folder in this project called 'stocks' and that folder will have two xml files - Nasdaq100.xml and Nifty50.xml, as shown below. 
 Note that I am only working on `master` branch all the time.
 
 ![Gitlab Project Structure](images/gitlab-project-files-overview.png)
 
-## Personal Access Token Creation
+## Gitlab - Personal Access Token Creation
 Since we are interested in connecting to Gitlab programmatically, we need to create an access token which can be used in our code. 
 ![Personal Access Token Creation](images/gitlab-personal-access-token-creation.png)
 
-## Programmatical Connection, Updates & Commits
+## Programmatical Updates & Commits
 When the `GitlabIntegrationDriver.java` is run, it connects to Gitlab via user authorization token and then makes an update to both the files in the Gitlab repository, by adding a new entry to the two indexes.
 ![Commit Messages](images/gitlab-programatical-commits.png)
 
