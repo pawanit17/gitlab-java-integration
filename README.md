@@ -32,7 +32,7 @@ Upon exploring the commits individually, you can see that the `GitlabIntegration
 2. Addition of another stock called 'Edison Corporation' to the American index Nasdaq100.
 
 You can see this commit information in more detail here:
-![Stock commit detail](images/gitlab-programatical-commits-overview.png)
+![Stock commit detail](images/gitlab-programatical-commits-diff.png)
 ![Project's File List](images/gitlab-programatical-commits-files-overview.png)
 
 # Conclusion
