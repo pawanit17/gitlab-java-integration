@@ -28,11 +28,10 @@ When the `GitlabIntegrationDriver.java` is run, it connects to Gitlab via user a
 ![Commit Messages](images/gitlab-programatical-commits.png)
 
 Upon exploring the commits individually, you can see that the `GitlabIntegrationDriver.java` has made two updates
-1. Addition of a stock called 'FLIPKART' to the Indian index Nifty50 and
+1. Addition of a stock called 'FLIPKART' to the Indian index Nifty50
+![Add Flipkar to Nifty50](images/gitlab-adding-flipkart-stock-to-nifty.png)
 2. Addition of another stock called 'Edison Corporation' to the American index Nasdaq100.
-
-You can see this commit information in more detail here:
-![Stock commit detail](images/gitlab-programatical-commits-diff.png)
+![Add Flipkar to Nasdaq100](images/gitlab-adding-edison-stock-to-nasdaq.png)
 
 # Conclusion
 This example just lists out a simple usecase involvin Gitlab4J. I see that there are many other activities that one can do using these APIs. For example, creation of new branches, cloning of repositories etc. This example shall serve as a quick reference guide to you to get started.
