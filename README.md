@@ -15,6 +15,8 @@ I have created few projects in Gitlab.com free account. As of this project, they
 Note that I am only working on `master` branch all the time. So I only have that branch on my repository/project. Also, in this project, I maintain two files, Nasdaq100.xml and Nifty50.xml, representing the top 100 and the top 50 stocks in that index respectively. Refer below for more information.
 ![Project's File List](images/gitlab-programatical-commits-files-overview.png)
 
+Since we are interested in connecting to Gitlab programmatically, we need to create an access token which can be used in our code. 
+![Personal Access Token Creation](images\gitlab-personal-access-token-creation.png)
 When the `GitlabIntegrationDriver.java` is run, it connects to Gitlab via user authorization token and then makes an update to both the files in the Gitlab repository, by adding a new entry to the two indexes.
 ![Commit Messages](images/gitlab-programatical-commits.png)
 
