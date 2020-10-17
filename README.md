@@ -1,5 +1,5 @@
 # Project Overview
-gitlab-java-integration, is a project that connects to Gitlab source repositories via Gitlab4J Java API and does update to the source code in it leaving a commit message. This is a very useful reference for beginners who would want to use such programmatical access to their source code bases in Gitlab.
+`gitlab-java-integration`, is a project that connects to Gitlab source repositories via Gitlab4J Java API and does update to the source code in it leaving a commit message. This is a very useful reference for beginners who would want to use such programmatical access to their source code bases in Gitlab.
 
 ## Depedendent Gitlab4J jar files
 This project is dependent on the Gitlab4J jar files for interacting with Gitlab source repositories. Visit [Gitlab4J](https://github.com/gitlab4j/gitlab4j-api) for more information.
