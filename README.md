@@ -33,7 +33,6 @@ Upon exploring the commits individually, you can see that the `GitlabIntegration
 
 You can see this commit information in more detail here:
 ![Stock commit detail](images/gitlab-programatical-commits-diff.png)
-![Project's File List](images/gitlab-programatical-commits-files-overview.png)
 
 # Conclusion
 This example just lists out a simple usecase involvin Gitlab4J. I see that there are many other activities that one can do using these APIs. For example, creation of new branches, cloning of repositories etc. This example shall serve as a quick reference guide to you to get started.
