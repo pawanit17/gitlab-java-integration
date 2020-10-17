@@ -8,7 +8,7 @@ This project is dependent on the Gitlab4J jar files for interacting with Gitlab 
 Gitlab4J exposes `pom.xml` which you can use for building depdendent jar files via maven. The command to use is `mvn clean -DskipTests dependency:copy-dependencies package`. The `-DskipTests` is for skipping the unit tests that come bundled with the Gitlab4J repository.
 
 # Deep dive
-I have created few projects in Gitlab.com free account. As of this project, they look as shown below.
+I have created few projects in Gitlab.com free account. As of this project, they look as shown below. We will be working with the one in green - `gitlab-java-integration`.
 
 ![My Gitlab Projects List](images/gitlab-projects-overview.png)
 
