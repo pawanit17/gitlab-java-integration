@@ -33,5 +33,7 @@ Upon exploring the commits individually, you can see that the `GitlabIntegration
 2. Addition of another stock called 'Edison Corporation' to the American index Nasdaq100.
 ![Add Flipkar to Nasdaq100](images/gitlab-adding-edison-stock-to-nasdaq.png)
 
+###In case the Gitlab server instance that you are trying to connect is on-premise with internally signed certificates, then the certificate has to be impoted into the JRE keystore that you are using to run the current Java project.
+
 # Conclusion
 This example just lists out a simple usecase involvin Gitlab4J. I see that there are many other activities that one can do using these APIs. For example, creation of new branches, cloning of repositories etc. This example shall serve as a quick reference guide to you to get started.
